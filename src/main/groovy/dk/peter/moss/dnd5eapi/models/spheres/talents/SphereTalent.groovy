@@ -1,4 +1,4 @@
-package dk.peter.moss.dnd5eapi.models.spheres
+package dk.peter.moss.dnd5eapi.models.spheres.talents
 
 abstract class SphereTalent {
     String name

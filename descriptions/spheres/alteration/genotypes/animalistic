@@ -1,0 +1,16 @@
+You grant the form of a land beast or monstrosity with your shapeshift.
+Limbs: 1 head, 4 legs with all the benefits of being a quadruped.
+Speed: 40-foot land speed. The land speed increases by 20 feet at 5th level (60 feet), 11th level (80 feet), and 17th level (100 feet).
+Natural weapons: bite [natural weapon] (1d6 piercing)
+AC: 13 + Dexterity modifier
+Senses: Scent ability (see below).
+Special: The target counts as being of either the beast or monstrosity type (your choice) in addition to its normal type.
+
+Animalistic (genotype) offers the following traits, which you can apply to any form:
+
+    Animal Speed: A land speed as that granted by the Animalistic (genotype) shape (grants 2 legs if the target lacked legs).
+    Hooves: [natural weapon] (requires legs) 1d4 bludgeoning. If you successfully overrun a target, it suffers damage from your hooves (1d4 + Str modifier).
+    Scent: The target gains advantage on Wisdom (Perception) checks that rely on smell.
+
+Overrun
+When a creature tries to move through a hostile creature's space, the mover can try to force its way through by overrunning the hostile creature. As an action or a bonus action, the mover makes a Strength (Athletics) check contested by the hostile creature's Strength (Athletics) check. The creature attempting the overrun has advantage on this check if it is larger than the hostile creature, or disadvantage if it is smaller. if the mover wins the contest, it can move through the hostile creature's space once this turn.

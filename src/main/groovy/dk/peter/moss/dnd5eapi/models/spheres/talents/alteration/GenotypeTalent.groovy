@@ -8,6 +8,8 @@ import dk.peter.moss.dnd5eapi.types.DamageType
 import java.util.function.BiFunction
 
 class GenotypeTalent extends AlterationTalent {
+    String special
+    Map<String, String> features = new HashMap()
     BiFunction<Integer, Integer, Integer> armorClass
 
     Map<Limbs, Integer> limbs = new HashMap()
@@ -42,12 +44,12 @@ class GenotypeTalent extends AlterationTalent {
         this.naturalWeapons.put(name, tuple)
     }
 
-    addHeads(Integer count = 1) { this.limbs.put(Limbs.Head, count) }
-    addLegs(Integer count = 1) { this.limbs.put(Limbs.Leg, count) }
-    addArms(Integer count = 1) { this.limbs.put(Limbs.Arm, count) }
-    addFins(Integer count = 1) { this.limbs.put(Limbs.Fin, count) }
-    addTails(Integer count = 1) { this.limbs.put(Limbs.Tail, count) }
-    addWings(Integer count = 1) { this.limbs.put(Limbs.Wing, count) }
+    void addHeads(Integer count = 1) { this.limbs.put(Limbs.Head, count) }
+    void addLegs(Integer count = 1) { this.limbs.put(Limbs.Leg, count) }
+    void addArms(Integer count = 1) { this.limbs.put(Limbs.Arm, count) }
+    void addFins(Integer count = 1) { this.limbs.put(Limbs.Fin, count) }
+    void addTails(Integer count = 1) { this.limbs.put(Limbs.Tail, count) }
+    void addWings(Integer count = 1) { this.limbs.put(Limbs.Wing, count) }
 
     private enum Limbs {
         Head,

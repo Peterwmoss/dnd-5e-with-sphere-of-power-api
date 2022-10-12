@@ -1,12 +1,18 @@
 package dk.peter.moss.dnd5eapi.models.spheres
 
+import dk.peter.moss.dnd5eapi.models.spheres.talents.SphereTalent
+import dk.peter.moss.dnd5eapi.types.spheres.SphereTalentType
+import dk.peter.moss.dnd5eapi.types.spheres.SphereType
+
 class MagicSphere {
-    String name
+    SphereType name
 
-    List<SphereAbility> abilities = new ArrayList()
-    List<SphereTalentGroup> talents = new ArrayList()
+    List<SphereAbility> abilities
+    Map<SphereTalentType, List<SphereTalent>> talents
 
-    MagicSphere(String name) {
+    MagicSphere(SphereType name, List<SphereAbility> abilities = new ArrayList(), Map<SphereTalentType, List<SphereTalent>> talents = new HashMap()) {
         this.name = name
+        this.abilities = abilities
+        this.talents = talents
     }
 }
